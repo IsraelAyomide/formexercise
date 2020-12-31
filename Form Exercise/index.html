@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Welcome to my form</h1>
+            <p>Kindly take time to fill the form</p>
+            <div class="form">
+                <form class="survey" target="_blank"action="https://drive.google.com/drive/folders/132_Nlhp1Hga8muvnquQBk1rAa1YAr8MH?usp=sharing">
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="fullname">Name</label>
+                        </div>
+                        <div class="data-input"><input type="text" id="fullname" name="name" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="data-input"><input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="Age">Age (optional)</label>
+                        </div>
+                        <div class="data-input"><input type="number" id="number" name="age" min="10" max="99" placeholder="Age"  required>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="role">Which option best describes your current role?</label>
+                        </div>
+                        <div class="data-input">
+                            <select id="role" name="role">
+                                <option value="" disabled selected>Select your current role</option>
+                                <option value="student">Student</option>
+                                <option value="fulltimejob">Full time job</option>
+                                <option value="fulltimelearner">Full time learner</option>
+                                <option value="prefernottosay">Prefer not to say</option>
+                                <option value="other">Other</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="recommendation">Would you recommend freeCodeCamp to a friend?</label>
+                        </div>
+                        <div class="data-input">
+                            <input type="radio" value="definitely" name="recommendation"> Definitely <br>
+                            <input type="radio" value="maybe" name="recommendation"> Maybe <br>
+                            <input type="radio" value="notsure" name="recommendation">Not sure <br>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="checkbox">What would you like to see improved? <span>(Check all that apply)</span></label>
+                        </div>
+                        <div class="data-input">
+                            <input type="checkbox" value="front-end-projects" name="checkbox"> Front-end Projects <br>
+                            <input type="checkbox" value="back-end-projects" name="checkbox"> Back-end Projects <br>
+                            <input type="checkbox" value="data-visualization" name="checkbox"> Data Visualization <br>
+                            <input type="checkbox" value="challenges" name="checkbox"> Challenges <br>
+                            <input type="checkbox" value="open-source-community" name="checkbox"> Open Source Community <br>
+                            <input type="checkbox" value="gitter-help-rooms" name="checkbox"> Gitter help rooms <br>
+                            <input type="checkbox" value="videos" name="checkbox"> Videos <br>
+                            <input type="checkbox" value="city-meetups" name="checkbox"> City Meetups <br>
+                            <input type="checkbox" value="wiki" name="checkbox"> Wiki <br>
+                            <input type="checkbox" value="forum" name="checkbox"> Forum <br>
+                            <input type="checkbox" value="additional-courses" name="checkbox"> Additional Courses <br>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="data-label">
+                            <label for="textarea">Any comments or suggestions?</label>
+                        </div>
+                        <div class="data-input"><textarea id="textarea" name="textarea" placeholder="Enter your comment here..." style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <input type="submit" value="Submit">
+                        
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
